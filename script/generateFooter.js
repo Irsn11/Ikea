@@ -40,6 +40,6 @@ const generateFooter = () => {
 		</div>
 	</footer>
 `;
-	document.body.insertAdjacentHTML('beforeend ', footer);
+	document.body.insertAdjacentHTML('beforeEnd', footer);
 };
 generateFooter();
